@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garantir que o body ocupe a altura total da página */
+}
+
+header{
+    background-color: #00d0ff;
+    width: auto;
+    height: 45px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+
+}
+
+li{
+    margin: 0 15px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    flex: 1; /* Ocupa o espaço restante, permitindo que o rodapé fique no final */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a:hover{
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+}
+
+.categorias{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap: 50px;
+}
+
+.produto1 {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    border: 2px solid #999;
+    font-size:20px ;
+    color: #666;
+    background-image: url(https://www.segs.com.br/media/k2/items/cache/beffa309f602e18f6511bcf00cde93d2_XL.jpg);
+    background-repeat: no-repeat;
+    background-size: 360px 450px;
+    
+}
+
+.produto2 {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    border: 2px solid #999;
+    font-size:20px ;
+    color: #666;
+    text-align:center;
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_866229-MLB71366977964_082023-O.webp);
+    background-repeat: no-repeat;
+    background-size: 360px 450px;
+}
+
+.produto3 {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    border: 2px solid #999;
+    font-size:20px ;
+    color: #666;
+    text-align:center;
+    background-image: url(https://wx.mlcdn.com.br/ponzi/production/portaldalu/467.jpg?ims=fit-in/960x);
+    background-repeat: no-repeat;
+    background-size: 360px 450px;
+}
+
+footer{
+    background-color: #00ccff;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer hr{
+    border: 0;
+    height: 1px;
+    background-color: #444;
+    margin-bottom: 10px;
+}
